@@ -49,6 +49,7 @@ export const contractAddresses = {
  * HNY/WXDAI  0x4505b262dc053998c10685dc5f9098af8ae5c8ad
  * HNY/STAKE  0x298c7326a6e4a6108b88520f285c7dc89403347d
  * HNY/WETH   0x89e2f342b411032a580fefa17f96da6a5bef4112
+ * TRIPS-WXDAI 0x5426a4d0926d6cd2c003241d8fb1c9420e43ed26
 */
 
 export const knownPools = {
@@ -64,4 +65,8 @@ export const knownPools = {
     name: 'Ether Eucalyptus',
     icon: <img src={greenFlower} alt="" />,
   }
+     '0xb1b733f5cbf854e280855928282f9c56e2ce520d': {
+    name: 'TRIPS Daisies',
+    icon: <img src={greenFlower} alt="" />
+  },
 }
